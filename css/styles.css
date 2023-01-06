@@ -1,0 +1,78 @@
+body{
+    background-color: #EFF5F5;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+/* Tytuł strony */
+.box-style{
+    padding: 3%;
+}
+
+.title{
+    font-family: 'Amiri', serif;
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    background-color: #D6E4E5;
+}
+
+/* Informacje o stronie i logowanie  */
+
+.main-box{
+    padding: 5% ;
+}
+
+.about-text{
+    text-align: left;
+    line-height: 2;
+}
+
+.log-box{
+    margin: 2% 0;
+}
+
+.log-in-btn {
+    color: #ffffff;
+    background-color: #eb6440;
+    font-size: 1rem;
+    border: 1px solid #eb6440;
+    border-radius: 0.5rem;
+    padding: 2% 10%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.log-in-btn:hover {
+    color: #000000;
+    border: 1px solid #eb6440;
+}
+
+.sign-on-btn {
+    color: #000;
+    font-size: 1rem;
+    border: 1px solid #eb6440;
+    border-radius: 0.5rem;
+    padding: 2% 10%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.sign-on-btn:hover {
+    color: #000000;
+	background-color: #eb6440;
+    border: 1px solid #eb6440;
+}
+
+/* Stopka */
+.copyright{
+    background-color: #D6E4E5;
+    font-size: 0.8rem;
+}
+
