@@ -1,0 +1,51 @@
+body{
+    background-color: #EFF5F5;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.5rem;
+    padding-bottom: 2%;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+a{
+    text-decoration:none;
+    color: #000;
+}
+
+a.white{
+    color:#fff;
+}
+
+a:hover{
+    color: #000;
+}
+
+.box-style{
+    padding: 3%;
+}
+/* Tytuł strony */
+
+.title{
+    font-family: 'Amiri', serif;
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    background-color: #D6E4E5;
+}
+
+/* Stopka */
+.copyright{
+    background-color: #D6E4E5;
+    color: #497174;
+    font-size: 0.8rem;
+}
