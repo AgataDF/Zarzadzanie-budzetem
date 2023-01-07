@@ -1,3 +1,11 @@
+.log-box{
+    margin: 2% 0;
+}
+
+.text-section{
+    padding: 2% 25%;
+}
+
 /* Informacje o stronie i logowanie  */
 
 .main-box{
@@ -8,40 +16,5 @@
     text-align: left;
     line-height: 2;
 }
-
-.log-box{
-    margin: 2% 0;
-}
-
-.solid-btn {
-    color: #ffffff;
-    background-color: #eb6440;
-    font-size: 1rem;
-    border: 1px solid #eb6440;
-    border-radius: 0.5rem;
-    padding: 2% 10%;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-.solid-btn:hover {
-    color: #000000;
-    border: 1px solid #eb6440;
-}
-
-.outline-btn {
-    color: #000;
-    font-size: 1rem;
-    border: 1px solid #eb6440;
-    border-radius: 0.5rem;
-    padding: 2% 10%;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-.outline-btn:hover {
-    color: #000000;
-	background-color: #eb6440;
-    border: 1px solid #eb6440;
-}
-
 
 
