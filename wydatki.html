@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Zarządzanie budżetem</title>
+    <title>Dodaj przychód - Zarządzanie budżetem</title>
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Work+Sans:wght@100;400;900&display=swap" rel="stylesheet">
@@ -41,10 +41,10 @@
                       Pokaż bilans
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Bieżący miesiąc</a></li>
-                      <li><a class="dropdown-item" href="#">Poprzedni miesiąc</a></li>
-                      <li><a class="dropdown-item" href="#">Bieżący rok</a></li>
-                      <li><a class="dropdown-item" href="#">Inny zakres</a></li>
+                        <li><a class="dropdown-item" href="bilans.html">Bieżący miesiąc</a></li>
+                        <li><a class="dropdown-item" href="bilans.html">Poprzedni miesiąc</a></li>
+                        <li><a class="dropdown-item" href="bilans.html">Bieżący rok</a></li>
+                        <li><a class="dropdown-item" href="bilans.html">Inny zakres</a></li>
                     </ul>
                   </li>
                 <li class="nav-item">
@@ -62,16 +62,17 @@
     <article class="text-section">
         <h2>Dodaj nowy wydatek.</h2>
         <div class="input-group mb-3">
-            <span class="input-group-text">Kwota</span>
+            <span class="expense-input">Kwota</span>
             <input type="text" class="form-control" aria-label="Amount">
           </div>
           
           <div class="input-group mb-3">
-            <input type="date" class="form-control" placeholder="Date" aria-label="Date">
+            <span class="expense-input">Data</span>
+            <input type="date" class="form-control" aria-label="Date">
           </div>
           
           <div class="input-group mb-3">
-            <label class="input-group-text" for="inputGroupSelect01">Sposób płatności</label>
+            <label class="expense-input" for="inputGroupSelect01">Sposób płatności</label>
             <select class="form-select" id="inputGroupSelect01">
               <option selected>Wybierz z listy</option>
               <option value="1">Gotówka</option>
@@ -81,7 +82,7 @@
           </div>
 
           <div class="input-group mb-3">
-            <label class="input-group-text" for="inputGroupSelect02">Kategoria</label>
+            <label class="expense-input" for="inputGroupSelect02">Kategoria</label>
             <select class="form-select" id="inputGroupSelect02">
               <option selected>Wybierz z listy</option>
               <option value="1">Jedzenie</option>
@@ -104,12 +105,12 @@
             </select>
           </div>
 
-          <div class="input-group">
-            <span class="input-group-text">Komentarz (opcjonalnie)</span>
+          <div class="input-group mb-3">
+            <span class="expense-input">Komentarz (opcjonalnie)</span>
             <textarea class="form-control" aria-label="With textarea"></textarea>
           </div>   
 
-          <button class="btn solid-btn log-box" type="submit"><i class="fa-solid fa-check"></i> Dodaj</button>
+          <button class="btn solid-btn log-box " type="submit"><i class="fa-solid fa-check"></i> Dodaj</button>
           <button class="btn outline-btn log-box" type="submit"><a class="black" href="logowanie.html"><i class="fa-solid fa-xmark"></i> Anuluj</a></button>
       
     </article>

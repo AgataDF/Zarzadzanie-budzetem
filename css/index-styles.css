@@ -17,4 +17,25 @@
     line-height: 2;
 }
 
+/*Wydatki i przychody*/
+
+.expense-input{
+    width: 35%;
+    margin: 1% 5% 0 0;
+    text-align: right;
+}
+
+/*Bilans*/
+.show-box{
+    border: solid 1px;
+    margin-top: 3%;
+}
+
+.balance-box {
+    margin-top: 5%;
+}
+
+
+
+
 
