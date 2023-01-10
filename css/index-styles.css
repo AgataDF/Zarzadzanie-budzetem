@@ -25,6 +25,10 @@
     text-align: right;
 }
 
+.comment-box{
+    resize: none;
+}
+
 /*Bilans*/
 .show-box{
     border: solid 1px;
@@ -33,6 +37,10 @@
 
 .balance-box {
     margin-top: 5%;
+}
+
+.disabled-column{
+    width: 5px;
 }
 
 

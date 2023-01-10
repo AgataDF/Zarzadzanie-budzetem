@@ -60,20 +60,21 @@
 
     <!-- Dodaj wydatek -->
     <article class="text-section">
-        <h2>Dodaj nowy wydatek.</h2>
-        <div class="input-group mb-3">
+      <h2>Dodaj nowy wydatek.</h2>
+      <form action="">
+          <div class="input-group mb-3 ">
             <span class="expense-input">Kwota</span>
-            <input type="text" class="form-control" aria-label="Amount">
+            <input type="number" class="form-control" aria-label="Amount" min="0" step="0.01" required>
           </div>
           
           <div class="input-group mb-3">
             <span class="expense-input">Data</span>
-            <input type="date" class="form-control" aria-label="Date">
+            <input type="date" class="form-control" aria-label="Date" min="2000-01-01" required>
           </div>
           
           <div class="input-group mb-3">
             <label class="expense-input" for="inputGroupSelect01">Sposób płatności</label>
-            <select class="form-select" id="inputGroupSelect01">
+            <select class="form-select" id="inputGroupSelect01" required>
               <option selected>Wybierz z listy</option>
               <option value="1">Gotówka</option>
               <option value="2">Karta debetowa</option>
@@ -83,7 +84,7 @@
 
           <div class="input-group mb-3">
             <label class="expense-input" for="inputGroupSelect02">Kategoria</label>
-            <select class="form-select" id="inputGroupSelect02">
+            <select class="form-select" id="inputGroupSelect02" required>
               <option selected>Wybierz z listy</option>
               <option value="1">Jedzenie</option>
               <option value="2">Mieszkanie</option>
@@ -107,12 +108,12 @@
 
           <div class="input-group mb-3">
             <span class="expense-input">Komentarz (opcjonalnie)</span>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <textarea class="form-control comment-box" aria-label="With textarea"></textarea>
           </div>   
 
           <button class="btn solid-btn log-box " type="submit"><i class="fa-solid fa-check"></i> Dodaj</button>
-          <button class="btn outline-btn log-box" type="submit"><a class="black" href="logowanie.html"><i class="fa-solid fa-xmark"></i> Anuluj</a></button>
-      
+          <button class="btn solid-btn log-box" type="reset"><a class="white" href="logowanie.html"><i class="fa-solid fa-xmark"></i> Anuluj</a></button>
+      </form>
     </article>
  
     <!-- Stopka -->
